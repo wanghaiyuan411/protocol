@@ -29,7 +29,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *
+ *Author imHyuan
  */
 @Configuration
 @EnableAuthorizationServer
