@@ -30,6 +30,7 @@ import java.util.Map;
 
 /**
  *Author imHyuan
+ * Author1 hYuan
  */
 @Configuration
 @EnableAuthorizationServer
