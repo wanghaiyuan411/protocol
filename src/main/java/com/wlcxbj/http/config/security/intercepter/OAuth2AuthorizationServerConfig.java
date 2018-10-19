@@ -32,6 +32,7 @@ import java.util.Map;
  *Author imHyuan
  * Author1 hYuan Date 20181019
  * Date 20181019
+ * Date 20181020
  */
 @Configuration
 @EnableAuthorizationServer
