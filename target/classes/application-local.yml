@@ -1,0 +1,16 @@
+spring:
+  datasource:
+      driverClassName: com.mysql.jdbc.Driver
+      initialSize: 5
+      maxActive: 15
+      minIdle: 3
+      maxWait: 30000
+      timeBetweenEvictionRunsMillis: 30000
+      minEvictableIdleTimeMillis: 30000
+      validationQuery: SELECT 'x'
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      removeAbandoned: true
+      removeAbandonedTimeout: 1800
+      logAbandoned: true

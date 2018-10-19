@@ -1,0 +1,19 @@
+server:
+  port: 8088
+mina:
+  port: 8888
+spring:
+  profiles:
+    active: local
+  datasource:
+    url: jdbc:mysql://192.144.136.141:3306/tcp?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    username: root
+    password: 123456
+logging:
+  level:
+    org.springframework:
+      data: INFO
+      security: INFO
+
+
+
