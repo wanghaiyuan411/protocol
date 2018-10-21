@@ -1,1 +1,2 @@
 this is a file createdby fixamerge branch
+this line is added by master branch
